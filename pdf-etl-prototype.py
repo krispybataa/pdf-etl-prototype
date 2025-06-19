@@ -42,7 +42,8 @@ def extract_into_text(doc_path):
 # Stage 2 - Transform Functions (Inclusive of Helper Functions )
 def clean_text(raw_text):
     """
-        Cleans the raw text by removing excess whitespace, but preserves newlines between sections.
+        Cleans the raw text by removing excess whitespace, but preserves newlines between sections for 
+        easier segregation of information.
     """
     # Replace multiple spaces/tabs with one space, but keep newlines
     cleaned_text = re.sub(r'[ \t]+', ' ', raw_text)
@@ -86,7 +87,7 @@ def remove_unicode_controls(text):
     # Covers \u202a-\u202e (directional marks), \u200e, \u200f (LRM/RLM), and similar
     return re.sub(r'[\u202a-\u202e\u200e\u200f]', '', text)
 
-def extract_applicant_information(extracted_info): # MAJOR BUGS WITH NAME AND ADDRESS
+def extract_applicant_information(extracted_info): 
     """
         Extracts the applicant information from the extracted information.
         This function is used to extract the applicant information from the extracted information.
