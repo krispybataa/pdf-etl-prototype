@@ -28,4 +28,4 @@
 
 ## Conclusion
 
-The **CV parsing feature** is now functional and allows **automatic information extraction** with a reasonable level of accuracy. The next steps involve refining the **parsing logic** to handle CV variability better while balancing **strict pattern matching** with **flexibility** to ensure more accurate results without hindering the current system’s usability.
+The **CV parsing feature** is now functional to a degree and allows **automatic information extraction** with a reasonable level of accuracy. My next step would be to start drafing the framework for the formal project which comprises this feature. 
