@@ -1,0 +1,14 @@
+# Test CVs omitted for privacy
+test-cvs/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+*.tmp
+.DS_Store
+.env
+venv/
+.env.*
+# VSCode settings
+.vscode/
